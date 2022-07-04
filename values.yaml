@@ -7,8 +7,8 @@ replicaCount: 1
 image:
   repository: surakshaniveus/gitops
   pullPolicy: IfNotPresent
-  # Overrides the image tag: 7
-  tag: 7
+  # Overrides the image tag: 8
+  tag: 8
 
 imagePullSecrets: []
 nameOverride: ""
@@ -72,8 +72,8 @@ autoscaling:
   enabled: false
   minReplicas: 1
   maxReplicas: 100
-  targetCPUUtilizationPercentag: 7
-  # targetMemoryUtilizationPercentag: 7
+  targetCPUUtilizationPercentag: 8
+  # targetMemoryUtilizationPercentag: 8
 
 nodeSelector: {}
 
